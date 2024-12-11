@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: goldenrod;
+}
+
+.btn{
+    border: none;
+    box-shadow: 10px 10px 20px  #666;
+}
+
+.btn:hover{
+    width: 180px;
+    height: 100px;
+}
+
+.paper{
+    position: relative;
+    margin-top: 30px;
+}
+
+.text{
+    position: absolute;
+    color: rgb(35, 35, 65);
+    font-size: 30px;
+    width: 640px;
+    height: 300px;
+    margin-top: 150px;
+    border: none;
+    background-color:#eceff3;
+    text-align: center;
+}
+
+
